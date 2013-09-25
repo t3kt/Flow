@@ -1,0 +1,33 @@
+name	default	mididev	midictl	global	label
+post_bloom_amount	0	bcr2000	s3	1	bloom
+post_bypass	0			1	
+post_colorspread_dist	0	bcr2000	s5	1	color spread
+post_contrast	0	bcr2000	s27	1	contrast
+post_distort_rate	.2	bcr2000	s28	1	distort rate
+post_distort_amt	.4	bcr2000	s29	1	distort amount
+post_echo_length	0.1	bcr2000	s1	1	echo length
+post_echo_mix	0	bcr2000	s2	1	echo mix
+post_edgestrength	0			1	
+post_saturation	.8	bcr2000	s23	1	saturation
+post_stutterlength	0.3	bcr2000	s8	1	stutter length
+post_stutteron	0	bcr2000	b24	1	stutter on
+post_timablend	0	bcr2000	s4	1	tima blend
+wire_rate	.1	bcr2000	s17		wire rate
+part_opacity	.6	bcr2000	s22		particle opacity
+part_fluidity	.1	bcr2000	s9		particle fluidity
+part_mass	.5	bcr2000	s10		particle mass
+part_pull	0.5	bcr2000	s11		particle pull
+part_turbulence	0.5	bcr2000	s12		particle turbulence
+part_warping	0.5	bcr2000	s13		particle warping
+part_warp_scale	0.7	bcr2000	s14		particle warp scale
+tube_cam_distance	.2	bcr2000	s20	1	cam distance
+tube_cam_pulse	0			1	
+tube_cam_rate	.7	bcr2000	s31	1	cam rate
+tube_cam_rot_center	.25	bcr2000	s25	1	cam rotate center
+tube_cam_rot_width	.15	bcr2000	s26	1	cam rotate width
+tube_mat_flashamount	0.2	bcr2000	s24		flash amount
+core_rimamount	.3	bcr2000	s16		
+tube_mat_strobe_on	0	bcr2000	b23		strobe on
+tube_mat_strobe_rate	.5	bcr2000	s7		strobe rate
+core_rate	.4	bcr2000	s18		core rate
+grid_opacity	.6	bcr2000	s21		grid opacity
