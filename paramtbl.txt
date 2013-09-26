@@ -7,7 +7,7 @@ post_distort_rate	.2	bcr2000	s28	1	distort rate
 post_distort_amt	.4	bcr2000	s29	1	distort amount
 post_echo_length	0.1	bcr2000	s1	1	echo length
 post_echo_mix	0	bcr2000	s2	1	echo mix
-post_edgestrength	0			1	
+post_edgestrength	0	bcr2000	s30	1	edge strength
 post_saturation	.8	bcr2000	s23	1	saturation
 post_stutterlength	0.3	bcr2000	s8	1	stutter length
 post_stutteron	0	bcr2000	b24	1	stutter on
