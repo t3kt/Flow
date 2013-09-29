@@ -12,11 +12,10 @@ post_saturation	.8	bcr2000	s23	1	saturation
 post_stutterlength	0.3	bcr2000	s8	1	stutter length
 post_stutteron	0	bcr2000	b24	1	stutter on
 post_timablend	0	bcr2000	s4	1	tima blend
-wire_rate	.1	bcr2000	s17		wire rate
 part_opacity	.6	bcr2000	s22		particle opacity
 part_fluidity	.1	bcr2000	s9		particle fluidity
 part_mass	.5	bcr2000	s10		particle mass
-part_pull	0.5	bcr2000	s11		particle pull
+attr_pull	0.5	bcr2000	s11		attractor pull
 part_turbulence	0.5	bcr2000	s12		particle turbulence
 part_warping	0.5	bcr2000	s13		particle warping
 part_warp_scale	0.7	bcr2000	s14		particle warp scale
