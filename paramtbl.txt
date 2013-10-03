@@ -25,7 +25,7 @@ tube_cam_rate	.7	bcr2000	s31	1	cam rate
 tube_cam_rot_center	.25	bcr2000	s25	1	cam rotate center
 tube_cam_rot_width	.15	bcr2000	s26	1	cam rotate width
 tube_mat_flashamount	0.2	bcr2000	s24		flash amount
-core_rimamount	.3	bcr2000	s16		
+attr_rimamount	.3	bcr2000	s16		
 tube_mat_strobe_on	0	bcr2000	b23		strobe on
 tube_mat_strobe_rate	.5	bcr2000	s7		strobe rate
 attr_rate	.4	bcr2000	s18	attrator rate
