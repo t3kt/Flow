@@ -35,8 +35,8 @@ The secondary control data flow is arranged like this:
                                                                      ---> Geometry / Materials / etc
 Config/Defaults ---> \                                              /
                       ---> GUI ---> Control Recording/Playback --->
-     MIDI Input ---> /                                              \---> MIDI Output
-                                                   
+     MIDI Input ---> /                                              \
+                                                                     ---> MIDI Output
                                
 ```
 
