@@ -11,8 +11,8 @@ http://t3kt.net/Projects/Flow
 
 -------------
 
-## Structure
-The Flow system is comprised of several, relatively self-contained sub-systems:
+## General Structure
+The Flow system is comprised of several, relatively self-contained sub-systems. These sub-systems, and the general data flow are roughly the same as in the LinearChaos and DynamicStructure projects.
 * Geometry (3D)
 * Materials / Lights / Camera (/Action!)
 * Rendering
@@ -27,6 +27,17 @@ The primary data flow is arranged like this:
                Geometry --> \
                              ---> Rendering ---> Post-Processing ---> Output/Recording
 Materials/Lights/Camera --> /
+```
+
+The secondary control data flow is arranged like this:
+```
+                                                Audio Analysis ---> \
+                                                                     ---> Geometry / Materials / etc
+Config/Defaults ---> \                                              /
+                      ---> GUI ---> Control Recording/Playback --->
+     MIDI Input ---> /                                              \---> MIDI Output
+                                                   
+                               
 ```
 
 ## 
