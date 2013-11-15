@@ -71,3 +71,26 @@ The primary (attractor) force fields are a set of two triangles with a metaball 
 ### Secondary Warp Fields
 The secondary warp fields are a set of force fields, several of which are based on enlarged copies of the attractor fields, apply a second phase of "force" to the particles. They apply rotational forces which mean that they behave very differently from the primary force fields in several ways. First, they are applied after the particle calculations, so they are not directly impacted by collision, etc (one neat result of this is that particles which are stuck to the core still get warped out of their "stucK' position). Second, they do not direclty impact the state of the particles, so they do not cause changes in momentum.
 
+
+## Audio Reactivity
+In order to create my entry for the MakeArtNow October/November challenge (<a href="https://www.facebook.com/groups/makeartnow/permalink/584149691633884/" target="_blank">on facebook</a>), and also for general awesomeness, I implemented audio reactivity in Flow.
+The audio stream is analyzed in real-time. The analysis data is grouped into 4 bands (all of which are based on stereo data merged into mono):
+
+1.  Raw
+2.  High Band
+3.  Mid Band
+4.  Low Band
+
+Each band runs through 4 types of analysis (so there are 16 analysis channels in total):
+
+1.  Levels (RMS power)
+2.  Peaks (highest peak value per window)
+3.  Envelopes (based off of peaks, normalized over a short period of time
+4.  Pulses (based off of each time the noramlized peaks go over a threshold)
+  
+At various points throughout the geometry and post-processing, the audio analysis data is pulled in and mapped onto parameters that modify behavior. This includes:
+*  Mid band pulses trigger switching between group rotation of the primary attractor fields, and level values are used to influence the rotation rates for a short span of time after each pulse
+*  ...
+
+
+
