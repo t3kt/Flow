@@ -90,7 +90,8 @@ Each band runs through 4 types of analysis (so there are 16 analysis channels in
   
 At various points throughout the geometry and post-processing, the audio analysis data is pulled in and mapped onto parameters that modify behavior. This includes:
 *  Mid band pulses trigger switching between group rotation of the primary attractor fields, and level values are used to influence the rotation rates for a short span of time after each pulse
-*  ...
+*  Mid band pulses, trigger brief reversals in the polarity of the push/pull forces of the attractor fields. The pulses are rate limited (so they don't trigger too often).
+*  Low band pulses (also rate-limited) trigger the time distortion in post-processing, causing it to momentarily jump backwards, then ramp forwards a bit, then resume normal time flow. When triggered, the time distortion suppresses all of the secondary delay taps, so only a single delay tap is visible (so instead of "echoes", it's more like stutters).
 
 
 
