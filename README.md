@@ -23,6 +23,8 @@ The Flow system is comprised of several, relatively self-contained sub-systems. 
 * Output / Recording
 
 The primary data flow is arranged like this:
+![data flow](http://t3kt.net/Content/Projects/Flow/data-flow.svg "primary data flow")
+
 ```
                Geometry --> \
                              ---> Rendering ---> Post-Processing ---> Output/Recording
