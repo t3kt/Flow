@@ -23,22 +23,10 @@ The Flow system is comprised of several, relatively self-contained sub-systems. 
 * Output / Recording
 
 The primary data flow is arranged like this:
-```
-               Geometry --> \
-                             ---> Rendering ---> Post-Processing ---> Output/Recording
-Materials/Lights/Camera --> /
-```
+![data flow](http://t3kt.net/Content/Projects/Flow/data-flow.svg "primary data flow")
 
 The secondary control data flow is arranged like this:
-```
-                                                Audio Analysis ---> \
-                                                                     ---> Geometry / Materials / etc
-Config/Defaults ---> \                                              /
-                      ---> GUI ---> Control Recording/Playback --->
-     MIDI Input ---> /                                              \
-                                                                     ---> MIDI Output
-                               
-```
+![control data flow](http://t3kt.net/Content/Projects/Flow/control-flow.svg "secondary control data flow")
 
 -------------
 
